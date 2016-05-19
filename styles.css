@@ -21,10 +21,16 @@ body {
 }
 
 h3 {
+	font-family: "Lucida Console";
 	border-style: inset;
 	border-width: 5px;
 	padding: 10px;
 	text-align: center;
+}
+
+.backgroundinfo {
+	border-style: double;
+	padding: 10px;
 }
 
 .intro {
@@ -37,8 +43,22 @@ aside {
 	font-size: .9em;
 }
 
-.sequels:link {
+ul {
+	display: block;
+	background-image: url("https://bioinf.comav.upv.es/courses/sequence_analysis/_images/matrix_low.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+a:link {
+	color: #9900ff;
+}
+a:visited {
 	color: #ff00ff;
+}
+
+a {
+	font-style: italic;
 }
 
 div {
