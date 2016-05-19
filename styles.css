@@ -89,9 +89,6 @@ button {
     margin: 0 auto;
 }
 
-
-
-
 #groupphoto {
 	display: block;
     margin: 0 auto;
@@ -107,22 +104,15 @@ figcaption {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 825px) {
   .intro {
   	height: 200px;
     overflow: auto;
   }
 }
 
-@media handheld and (max-width: 768px) {
-  .intro {
-  	height: 200px;
-    overflow: auto;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .output {
-  	width: 80%;
+@media screen and (max-width: 900px) {
+  #kitty {
+  	width: 60%;
   }
 }
