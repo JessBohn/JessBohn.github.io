@@ -37,6 +37,10 @@ aside {
 	font-size: .9em;
 }
 
+.sequels:link {
+	color: #ff00ff;
+}
+
 div {
 	padding-bottom: 10px;
 }
