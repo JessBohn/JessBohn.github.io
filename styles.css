@@ -89,6 +89,9 @@ button {
     margin: 0 auto;
 }
 
+
+
+
 #groupphoto {
 	display: block;
     margin: 0 auto;
@@ -111,3 +114,8 @@ figcaption {
   }
 }
 
+@media screen and (max-width: 450px) {
+  .output {
+  	width: 80%;
+  }
+}
