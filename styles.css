@@ -1,9 +1,23 @@
+* {
+	color: #ffffff;
+}
+
 h1 {
+	font-family: "Lucida Console";
 	text-align: center;
 }
 
+#logo {
+    display: block;
+    margin: 0 auto;
+}
+
+i {
+	color: #1aff1a;
+}
+
 body {
-	background: pink;
+	background: #000000;
 }
 
 h3 {
@@ -18,11 +32,11 @@ h3 {
 }
 
 aside {
+	color: #ff0000;
+	margin-left: 20px;
 	font-size: .9em;
 }
 
-#logo {
-    display: block;
-    margin: 0 auto;
-
+.favorite {
+	background-color: #ffe6f9;
 }
