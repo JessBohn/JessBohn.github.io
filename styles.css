@@ -37,6 +37,44 @@ aside {
 	font-size: .9em;
 }
 
+div {
+	padding-bottom: 10px;
+}
+
+label {
+	padding-right: 10px;
+}
+
+option {
+	color: #000000;
+}
+
 .favorite {
-	background-color: #ffe6f9;
+	background-color: #ff3377;
+}
+
+button {
+	color: #ffffff;
+	background-color: #808080;
+	font-size: .8em;
+	font-weight: bold;
+	border-color: #ff3377;
+	width: 200px;
+	height: 40px;
+	display: block;
+    margin: 0 auto;
+}
+
+#groupphoto {
+	display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+	text-align: center;
+}
+
+#kitty {
+	display: block;
+    margin: 0 auto;
 }
