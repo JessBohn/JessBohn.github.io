@@ -114,6 +114,13 @@ figcaption {
   }
 }
 
+@media handheld and (max-width: 768px) {
+  .intro {
+  	height: 200px;
+    overflow: auto;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .output {
   	width: 80%;
