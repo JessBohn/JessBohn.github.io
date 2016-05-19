@@ -92,6 +92,7 @@ button {
 #groupphoto {
 	display: block;
     margin: 0 auto;
+    width: 45%
 }
 
 figcaption {
@@ -102,3 +103,11 @@ figcaption {
 	display: block;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 450px) {
+  .intro {
+  	height: 200px;
+    overflow: auto;
+  }
+}
+
