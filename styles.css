@@ -46,7 +46,7 @@ aside {
 ul {
 	display: block;
 	background-image: url("https://bioinf.comav.upv.es/courses/sequence_analysis/_images/matrix_low.jpg");
-	background-repeat: repeat-x;
+	background-repeat: no-repeat;
 	background-position: right;
 }
 
@@ -89,9 +89,13 @@ button {
     margin: 0 auto;
 }
 
+
+
+
 #groupphoto {
 	display: block;
     margin: 0 auto;
+    width: 45%
 }
 
 figcaption {
@@ -101,4 +105,24 @@ figcaption {
 #kitty {
 	display: block;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+  	height: 200px;
+    overflow: auto;
+  }
+}
+
+@media handheld and (max-width: 768px) {
+  .intro {
+  	height: 200px;
+    overflow: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .output {
+  	width: 80%;
+  }
 }
