@@ -107,7 +107,14 @@ figcaption {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
+  .intro {
+  	height: 200px;
+    overflow: auto;
+  }
+}
+
+@media handheld and (max-width: 768px) {
   .intro {
   	height: 200px;
     overflow: auto;
