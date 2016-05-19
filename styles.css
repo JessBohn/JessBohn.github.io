@@ -46,7 +46,7 @@ aside {
 ul {
 	display: block;
 	background-image: url("https://bioinf.comav.upv.es/courses/sequence_analysis/_images/matrix_low.jpg");
-	background-repeat: repeat-x;
+	background-repeat: no-repeat;
 	background-position: right;
 }
 
