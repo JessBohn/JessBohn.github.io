@@ -1,0 +1,104 @@
+* {
+	color: #ffffff;
+}
+
+h1 {
+	font-family: "Lucida Console";
+	text-align: center;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+}
+
+i {
+	color: #1aff1a;
+}
+
+body {
+	background: #000000;
+}
+
+h3 {
+	font-family: "Lucida Console";
+	border-style: inset;
+	border-width: 5px;
+	padding: 10px;
+	text-align: center;
+}
+
+.backgroundinfo {
+	border-style: double;
+	padding: 10px;
+}
+
+.intro {
+	margin-left: 10px;
+}
+
+aside {
+	color: #ff0000;
+	margin-left: 20px;
+	font-size: .9em;
+}
+
+ul {
+	display: block;
+	background-image: url("https://bioinf.comav.upv.es/courses/sequence_analysis/_images/matrix_low.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+a:link {
+	color: #9900ff;
+}
+a:visited {
+	color: #ff00ff;
+}
+
+a {
+	font-style: italic;
+}
+
+div {
+	padding-bottom: 10px;
+}
+
+label {
+	padding-right: 10px;
+}
+
+option {
+	color: #000000;
+}
+
+.favorite {
+	background-color: #ff3377;
+}
+
+button {
+	color: #ffffff;
+	background-color: #808080;
+	font-size: .8em;
+	font-weight: bold;
+	border-color: #ff3377;
+	width: 200px;
+	height: 40px;
+	display: block;
+    margin: 0 auto;
+}
+
+#groupphoto {
+	display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+	text-align: center;
+}
+
+#kitty {
+	display: block;
+    margin: 0 auto;
+}

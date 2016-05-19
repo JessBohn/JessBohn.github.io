@@ -2,21 +2,23 @@
 <html>
 <head>
 	<title>Nerd Herd</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 	<h1>Revenge of the Nerds Fan Page!</h1>
 	<header>
-		<img src="http://i3.cpcache.com/product/1490105293/lambda_fraternity_sticker.jpg?height=225&width=225" alt="Tri-Lamb logo">
+		<img src="http://i3.cpcache.com/product/1490105293/lambda_fraternity_sticker.jpg?height=225&width=225" id="logo">
 	</header>
 	<h3>My fan story</h3>
-	<p>
+	<p class="intro">
 		Hello, my name is Jessica and I remember watching <i>Revenge of the Nerds</i> for the first time with my father and I have loved it ever since. While some people like this film purely for its comedic content, I enjoy it because I connected to the story on a personal level. I self-identify as a nerd and have always felt like a bit of an outside, but through this movie I realized that I have my very own group of people to connect with. However, I am also a woman in the engineering industry which created a new social challenge for me in college. This was until I found the real-life version of Lambda Lambda Lambda known as Phi Sigma Rho which is a sorority specifically for women in engineering and computer science. I became a national member of Phi Sigma Rho, because it was founded on the basis that the women in engineering were underrepresented in the Greek community that they too wanted to partake in. <aside>Phi Sigma Rho was founded in 1984, the same year that <i>Revenge of the Nerds</i> was released</aside>
 	</p>
 
 	<hr>
 
-	<p>
-		While the original <i>Revenge of the Nerds</i> was fairly popular in the 80's and still today, true fans also know and enjoy the three sequels that were created for the RotN franchise. While the original movie and its first sequel were released in theaters the last two were only television films.<br>
+	<p class="backgroundinfo">
+		While the original <i>Revenge of the Nerds</i> was fairly popular in the 80's and still today, true fans also know and enjoy the three sequels that were created for the RotN franchise. While the original movie and its first sequel were released in theaters the last two were only television films.
+	</p>
 		Listed below are the sequels:
 		<ul>
 			<li><i>Revenge of the Nerds II: Nerds in Paradise</i> (1987)</li>
@@ -27,20 +29,18 @@
 	<div>
       <label>Which <i>Revenge of the Nerds</i> is your favorite?</label>
       <select name="movie">
-        <option value="movie">Original</option>
-        <option value="movie">II: Nerds in Paradise</option>
-        <option value="movie">III: The Next Generation</option>
-        <option value="movie">IV: Nerds in Love</option>
+        <option class="movie">Original</option>
+        <option class="movie">II: Nerds in Paradise</option>
+        <option class="movie">III: The Next Generation</option>
+        <option class="movie">IV: Nerds in Love</option>
       </select>
     </div>
     <div>
       <label>Why is this your favorite?</label>
-      <textarea></textarea>
+      <textarea class="favorite"></textarea>
   	</div>
     <button type="Submit">Welcome to the Nerd Herd!</button>
   </form>
-
-	</p>
 	
 	
 </body>
