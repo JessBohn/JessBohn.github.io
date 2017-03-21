@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "My Personal Github Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessBohn/JessBohn.github.io.git"
+  },
+  "author": "Jessica Bohn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessBohn/JessBohn.github.io/issues"
+  },
+  "homepage": "https://github.com/JessBohn/JessBohn.github.io#readme",
+  "dependencies": {
+    "webpack": "^2.2.1"
+  }
+}
