@@ -1,0 +1,23 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "## Developer Website/Blog This website will be used to display and demonstrate some of my best projects as well give insight into who I am as a person and new developer.",
+  "main": "Home.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessBohn/JessBohn.github.io.git"
+  },
+  "author": "Jessica Bohn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessBohn/JessBohn.github.io/issues"
+  },
+  "homepage": "https://github.com/JessBohn/JessBohn.github.io#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
