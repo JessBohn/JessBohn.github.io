@@ -9,7 +9,10 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  background-image: url(./images/keyboard.png);
+  background-size: contain;
+  background-repeat: repeat space;
+  height: 200px;
   padding: 20px;
   color: white;
 }
