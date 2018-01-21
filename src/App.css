@@ -15,11 +15,10 @@
   padding: 20px;
   color: white;
   font-family: 'VT323', monospace;
-  font-size: 40px;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 40px;
 }
 
 .App-intro {
