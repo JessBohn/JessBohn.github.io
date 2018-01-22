@@ -17,9 +17,11 @@ class App extends Component {
               hideWhenDoneDelay: 500
             }}>Web & Mobile Application Developer | Mechanical Engineer</Typist></h2>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="App-body">
+          <p className="App-intro">
+            To get started, edit <code>src/App.js</code> and save to reload.
+          </p>
+        </div>
       </div>
     );
   }
